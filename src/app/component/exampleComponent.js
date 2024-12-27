@@ -11,6 +11,7 @@ const SimpleExample = () => {
   return (
     <div>
       <h1>Count: {count}</h1> 
+      
       <button onClick={() => setCount(count + 1)}>Increase Count</button>
     </div>
   );
