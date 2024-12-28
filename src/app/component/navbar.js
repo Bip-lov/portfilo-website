@@ -13,6 +13,11 @@ const Navbar = () => {
 
         {/* Navigation Links */}
         <ul className="flex items-center space-x-8 text-lg">
+        <li>
+            <Link href="/#Home" className="hover:text-gray-300 transition">
+              Home
+            </Link>
+          </li>
           <li>
             <Link href="/#about" className="hover:text-gray-300 transition">
               About
@@ -37,7 +42,7 @@ const Navbar = () => {
 
         {/* Optional Call-to-Action Button */}
         <div>
-          <Link href="/get-started" className="bg-blue-600 px-4 py-2 rounded-lg shadow hover:bg-blue-500 transition">
+          <Link href="/cv" className="bg-blue-600 px-4 py-2 rounded-lg shadow hover:bg-blue-500 transition">
             Download CV
           </Link>
         </div>
